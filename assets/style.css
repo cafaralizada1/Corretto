@@ -1,0 +1,341 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+.nav-link {
+    color: #fff;
+}
+
+.page-1 {
+    width: 100%;
+    height: 650px;
+    display: flex;
+    gap: 20px;
+    justify-content: end;
+    text-align: center;
+    background-image: url('https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/h1-bacground-img-2.jpg');
+}
+
+.master {
+    width: 60%;
+    height: 60%;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.image-first {
+    width: 30%;
+    height: 45%;
+}
+
+.master h1,
+.master p {
+    color: #fff;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.master h1 {
+    font-size: 90px;
+}
+
+.master p {
+    font-size: 15px;
+}
+
+.knob {
+    width: 16%;
+    height: 18%;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid;
+}
+
+.knob:hover {
+    background-color: rgb(255, 201, 130);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+@media screen and (min-width:300px) and (max-width:700px) {
+    .master h1 {
+        font-size: 30px;
+    }
+
+    .master p {
+        font-size: 5px;
+    }
+
+    .button {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:300px) {
+    .master h1 {
+        font-size: 26px;
+    }
+
+    .master p {
+        font-size: 5px;
+    }
+
+    .button {
+        font-size: 10px;
+    }
+}
+
+/* page-1 bitdi */
+
+
+.page-2, .page2-first,.types{
+    width: 100%;
+}
+.page-2{
+    height: 100%;
+}
+
+.page2-first {
+    height: 350px;
+    text-align: center;
+    padding-top: 36px;
+    margin-top: 36px;
+}
+
+.types {
+    height: auto;
+    text-align: center;
+    margin-left: 18px;
+    padding-left: 18px;
+}
+
+.page2-first h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.page2-second {
+    padding-left: 18px;
+    margin-left: 18px;
+}
+
+/* page2 bitdi */
+
+.page-3 {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 26px;
+    margin-top: 26px;
+    background-image: url('https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/new-new-h1-bacground-img-3.jpg');
+}
+
+.herald img {
+    width: 80%;
+    height: 35%;
+}
+
+.page3-first {
+    width: 100%;
+    height: 30%;
+    padding-top: 16px;
+    margin-top: 16px;
+}
+
+/* page3 bitdi */
+
+.page-4 {
+    margin-top: 8%;
+    width: 100%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/h1-bacground-img-2.jpg');
+    padding-top: 20px;
+}
+
+.page-4 img {
+    width: 18%;
+    height: 70%;
+}
+
+/* page4 bitdi */
+
+.page-5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+.number {
+    width: 70%;
+    height: 40%;
+    margin: 26px;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.number h5 {
+    font-size: 40px;
+    color: rgb(186, 165, 132);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    font-style: italic;
+}
+
+/* page5 bitdi */
+
+.page-6 {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background-image: url('https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/h1-bacground-img-1.jpg');
+}
+
+.shop img {
+    width: 80%;
+    height: auto;
+}
+
+.page6-first {
+    width: 100%;
+    height: 350px;
+}
+
+.page6-second,
+.page6-first {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.page-6 p{
+    font-style: italic;
+}
+.page-6 h1 {
+    font-weight: 800;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+}
+
+.page-6 img,
+.page-6 h1 {
+    margin-bottom: 18px;
+}
+
+/* page6 bitdi */
+.page-7,.page7-first,.sweet img{
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    padding-top: 30px;
+}
+.page7-first{
+    margin: 30px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 30px 30px;
+}
+
+/* page7 bitdi */
+.page-8,.page8-first{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.page-8{
+    height: 400px;
+}
+.page8-first img{
+    width: 16%;
+}
+
+/* page8 bitdi */
+
+.page-9{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/p2-background-img-1.jpg');
+}
+.page9-first{
+    width: 90%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20%;
+}
+.page9-first p{
+    font-size: 23px;
+    font-weight: 400;
+}
+.knob2{
+    width: 12%;
+    height: 30%;
+    border: none;
+    background-color: rgb(186, 161, 130);
+    color: white;
+}
+.knob2:hover{
+    background-color: black;
+    transition: 0.5s;
+}
+
+/* page9 bitdi */
+
+.page-10{
+    background: url('https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/footer-top-img-1.jpg');
+    height: 100vh;
+    text-align: center;
+}
+.page-10 p ,h2,h3{
+    color: #fff;
+    font-weight: 800;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 4%;
+}
+.knob3,.ends{
+    padding: 8px 14px;
+}
+.knob3:hover{
+    cursor: pointer;
+    background-color: rgb(186, 161, 130);
+}
+
+/* page10 bitdi */
+
+.end{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #100000;
+    color: #fff;
+    height: 110px;
+}
+.list ul{
+    display: flex;
+    gap: 30px;
+}
+.icon i{
+    padding: 8px;
+}
+.icon:hover,.list:hover,.special:hover{
+    cursor: pointer;
+    color: rgb(186, 161, 130);
+    transition: 0.5s;
+}
